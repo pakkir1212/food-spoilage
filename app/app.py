@@ -1,4 +1,5 @@
 
+
 import json
 from pathlib import Path
 
@@ -6,11 +7,14 @@ import joblib
 import pandas as pd
 import streamlit as st
 
-PROJECT = Path("/content/food-spoilage-prediction")
+# Locate the project root relative to this app.py file
+PROJECT = Path(__file__).resolve().parent.parent
+
 RESULTS = PROJECT / "results"
 MODEL_PATH = PROJECT / "models" / "best_model.joblib"
 METADATA_PATH = PROJECT / "models" / "model_metadata.json"
 DATA_PATH = PROJECT / "data" / "food_spoilage.csv"
+```
 
 st.set_page_config(
     page_title="Food Spoilage | ML Analytics",
