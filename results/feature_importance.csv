@@ -1,0 +1,6 @@
+Encoded_Feature,Importance
+categorical__Preservative_Formula2,0.2777
+categorical__Preservative_Formula1,0.244
+numeric__ContaminationLevel,0.2336
+numeric__VacuumPress,0.1389
+numeric__CoolTemp,0.1059

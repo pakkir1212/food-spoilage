@@ -1,0 +1,6 @@
+Model,LOOCV_Runtime_Seconds,MAE,RMSE,R2
+Mean Baseline,0.1293,8.35,10.0903,-0.1378
+Decision Tree,0.1303,6.3125,8.1662,0.2548
+Random Forest,2.1526,4.445,5.7763,0.6271
+Extra Trees,1.5745,6.3125,8.1662,0.2548
+Gradient Boosting,0.6681,4.1733,5.3763,0.677

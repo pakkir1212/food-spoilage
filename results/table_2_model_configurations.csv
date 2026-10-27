@@ -1,0 +1,6 @@
+Model,Configuration
+Mean Baseline,Predict training-fold mean
+Decision Tree,max_depth=3; random_state=42
+Random Forest,100 trees; max_depth=3; random_state=42
+Extra Trees,100 trees; max_depth=3; random_state=42
+Gradient Boosting,50 estimators; max_depth=2; learning_rate=0.05; random_state=42

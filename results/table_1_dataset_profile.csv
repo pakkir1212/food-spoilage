@@ -1,0 +1,7 @@
+Item,Value
+Complete observations used,16
+Input features,"Preservative, VacuumPress, ContaminationLevel, CoolTemp"
+Target,Spoilage (numeric regression target)
+Categorical input,Preservative
+Numeric inputs,"VacuumPress, ContaminationLevel, CoolTemp"
+Validation,Leave-One-Out Cross-Validation

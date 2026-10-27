@@ -1,0 +1,6 @@
+Model,MAE,RMSE,R2
+Gradient Boosting,4.1733,5.3763,0.677
+Random Forest,4.445,5.7763,0.6271
+Extra Trees,6.3125,8.1662,0.2548
+Decision Tree,6.3125,8.1662,0.2548
+Mean Baseline,8.35,10.0903,-0.1378
