@@ -14,7 +14,7 @@ RESULTS = PROJECT / "results"
 MODEL_PATH = PROJECT / "models" / "best_model.joblib"
 METADATA_PATH = PROJECT / "models" / "model_metadata.json"
 DATA_PATH = PROJECT / "data" / "food_spoilage.csv"
-```
+
 
 st.set_page_config(
     page_title="Food Spoilage | ML Analytics",
